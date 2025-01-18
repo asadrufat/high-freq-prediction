@@ -1,1 +1,47 @@
-pycache/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local development settings
+.env
+.env.local
+
+# Model files and data
+*.pkl
+*.h5
+*.csv
+*.xlsx
+*.model
+/data/
+/models/
+
+# Logs
+*.log
+logs/
