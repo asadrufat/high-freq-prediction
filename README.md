@@ -1,4 +1,4 @@
-# Call Volume Predictor
+# High Frequency Prediction Model
 
 A machine learning system for predicting call center volume using time series analysis and Bayesian optimization. The system combines CatBoost-based prediction with MCMC optimization to provide accurate call volume forecasts.
 
