@@ -15,7 +15,7 @@ A machine learning system for predicting call center volume using time series an
 
 ```
 high-freq-prediction/
-├── src/                    # Source code
+├── src/                  # Source code
 │   ├── data/              # Data loading and preprocessing
 │   ├── features/          # Feature engineering
 │   ├── models/            # ML models
