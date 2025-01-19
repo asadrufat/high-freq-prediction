@@ -16,11 +16,11 @@ A machine learning system for predicting call center volume using time series an
 ```
 high-freq-prediction/
 ├── src/                  # Source code
-│   ├── data/              # Data loading and preprocessing
-│   ├── features/          # Feature engineering
-│   ├── models/            # ML models
-│   └── utils/             # Utility functions
-├── tests/                 # Unit tests
+│   ├── data/               # Data loading and preprocessing
+│   ├── features/           # Feature engineering
+│   ├── models/             # ML models
+│   └── utils/              # Utility functions
+├── tests/                  # Unit tests
 ├── notebooks/            # Jupyter notebooks
 └── configs/              # Configuration files
 ```
@@ -36,7 +36,7 @@ cd high-freq-prediction
 2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate 
+source venv/bin/activate
 ```
 
 3. Install dependencies:
@@ -78,12 +78,12 @@ predictions = model.predict(test_features)
 
 The system uses a two-stage approach for prediction:
 
-1. **Base Prediction**: 
+1. **Base Prediction**:
    - CatBoost model with time series features
    - Handles high-frequency temporal patterns
    - Incorporates business-specific features
 
-2. **MCMC Optimization**: 
+2. **MCMC Optimization**:
    - Bayesian refinement of predictions
    - Accounts for uncertainty
    - Adapts to changing patterns
