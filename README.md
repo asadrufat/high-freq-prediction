@@ -20,7 +20,7 @@ high-freq-prediction/
 │   ├── features/           # Feature engineering
 │   ├── models/             # ML models
 │   └── utils/              # Utility functions
-├── tests/                  # Unit tests
+├── tests/                # Unit tests
 ├── notebooks/            # Jupyter notebooks
 └── configs/              # Configuration files
 ```
